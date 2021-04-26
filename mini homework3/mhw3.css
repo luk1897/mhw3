@@ -1,0 +1,386 @@
+html{
+    font-size: 30px;   
+}
+span{
+    height:500px;
+    display:block;
+}
+a{
+    text-decoration: none;
+}
+header{
+    
+    background-image: url(https://www.gamelegends.it/wp-content/uploads/2019/02/kingdom-hearts-3-guida-come-sbloccare-finale-segreto-v5-362227-1280x720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    position:relative;
+    font-family: 'Raleway', Helvetica;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header::before {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}  
+
+#logo {
+    color:red;
+    z-index:1;
+    font-size:3rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue',Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-style: normal;
+    line-height: normal;
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left: 5%;
+}
+
+#frase_comm{
+    color:white;
+    z-index:1;
+    font-family: 'Bilbo Swash Caps','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight:normal;
+    font-style: normal;
+    line-height: normal;
+}
+
+#b_info{
+    background-color:black;
+    margin:0;
+ }
+
+
+nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:25%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width:50%; 
+ 
+}
+
+nav a{
+    cursor: pointer;
+    border-radius: 15px;
+    border:2px solid white;
+    font-size: 0.55rem;
+    color:white;
+    margin-top: 5%;
+    padding:5px;
+    font-family: 'Amiri', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+}
+nav a:hover{
+    font-style: italic;
+    color:blue;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.main_flex{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:10px;
+    width:80%;
+    position:relative;
+}
+.hidden{
+    display:none;
+}
+.pag{
+    font-size: 0.8rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color: rgba(4, 65, 199, 0.788);
+    color:white;
+    cursor: pointer;
+}
+#search{
+    width:300px;
+    height:40px;
+    margin-left:57%;
+}
+
+
+.giochi {
+    margin:4%;
+    height:350px;
+    width:180px;
+    position:relative;
+    text-align: center;
+}
+.image{
+   width: 100%;
+   height:68%;
+}
+.nome{
+    font-size: 0.7rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 100%;
+    color:black;
+}
+.dettagli{
+    font-size: 0.6rem;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    margin-top:6px;
+    cursor: pointer;
+}
+.descrizione{
+    font-size: 0.45rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+}
+.bottone{
+    top:0;
+    right: 0;
+    position: absolute;
+    height:10%;
+    width:16%;
+  border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+.b_rimozione{
+    top:0;
+    right: 0;
+    position: absolute;
+    height:8%;
+    width:16%;
+  border:1px solid black;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+footer{
+    
+    background-color: rgb(95, 92, 92);
+    color:red;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+
+footer a{
+color:rgb(241, 241, 241);
+cursor: pointer;
+text-decoration: none;
+font-size:0.7rem;
+font-family: "Cinzel",Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight: normal;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+
+#abs_footer{
+    display:flex;
+    bottom:0;
+    right:0;
+    position: absolute;
+    justify-content: flex-end;
+    margin-left: 2px;
+    color:rgb(241, 241, 241); 
+    text-transform: uppercase;
+    font-family: "Cinzel",Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+    font-weight: normal;
+    font-style: italic;
+    line-height:normal;
+}
+
+.int_esp{
+    color:white;
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+#form_t{
+    text-align: center;
+}
+.res_flex{
+    background-color:rgba(255, 255, 255, 0.788);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius:10px;
+    position:relative;
+    width:80%;
+    
+}
+.img_twitch{
+    width:100%;
+    height:60%;
+}
+.clip{
+    width:450px;
+    margin:4%;
+    text-align: center;
+}
+.flex_c{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.desc_t_c{
+    font-size: 0.8rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight: 600;
+}
+.desc_t_c:hover{
+    color:blue;
+}
+.int_esp{
+    font-family: 'Amiri', Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    color:white;
+    font-size:1.2rem;
+}
+.url{
+    font-size: 1rem;
+    font-style:italic;
+    line-height: 100%;
+    color:black;
+    text-align: center;
+    font-family:'Rajdhani','Times New Roman', Times, serif ;
+    font-weight:600;
+    
+}
+.url:hover{
+    color:blue;
+    font-weight: bold;
+}
+.coms{
+    
+    margin:4%;
+    height:350px;
+    width:180px;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    html {
+    font-size: 11px;
+    }
+    #search{
+        width:40%;
+        height:40px;
+        margin-left:10%
+    }
+    header{
+        height:300px;
+        width: 100%;
+        
+    } 
+    footer{
+        height:50px;
+        width: 100%;
+    } 
+    .main_flex{
+        align-items: center;
+    }
+    .giochi{
+        margin:35%;
+        height:250px;
+        width:30%;
+        
+    } 
+    .nome{
+        font-size: 1.3rem;
+    }
+     .dettagli{
+        font-size: 1.3rem;
+    }
+    .descrizione{
+        font-size: 0.9rem;
+    }
+    .desc_t_c{
+        font-size:1.4rem;
+        
+    }
+    .coms{
+        margin:13%;
+    }
+ }
+
+
+@media (width:280px){
+html{
+    font-size:10px;
+}
+.giochi{
+    height:7%;
+    margin:15%;
+}
+}
+@media(width:768px){
+    html{
+        font-size:25px;
+    }
+    .giochi{
+        height:10%;
+    }
+    
+    footer{
+        height:100px;
+    }
+}
